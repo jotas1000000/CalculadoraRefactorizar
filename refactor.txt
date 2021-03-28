@@ -1,0 +1,28 @@
+Refactorización a cargo de Navia Aramburo Pamela Andrea
+1.	Error: mal nombre de los atributos
+Descripción del error: el nombre de los atributos no describe la acción o a que atributo se refiere por lo que
+cambie los nombres. 
+Viendo la funcionalidad que realizaba cada atributo, cambie los nombres del siguiente modo:
+t-> texto
+v-> primDig
+b-> segDig
+oc-> operacion
+
+2. Error: líneas de código 10 y 11 inservibles
+Por lo que elimine ambas líneas
+
+3. En la línea 94, se cambio el "item 8" por "item +" para que sea más descriptivo sobre la operación que realiza.
+De igual modo, se modifico en el "index.html", línea 24
+Se procedió a realizar los mismos cambios en:
+"index.html" líneas: 28, 32, 35, 36. Y en "script.js" líneas: 142, 190, 217, 259
+
+4. código repetido sin ninguna justificación
+líneas: 222-228
+        231-237
+        240-246
+        249-255
+
+5. En las líneas 36, 40, 42, 51, 55, 100, 105, 148, 153, 196, 201, 237 y 242. Se tenía el siguiente código:
+"panel.innerText = texto;", era código repetido ya que se implementaba dentro de cada if y else; por lo que
+elimine las líneas de código y coloque únicamente al final de todo el ciclo para que sea cual sea el resultado
+el código pueda ejecutarse sin inconvenientes.
